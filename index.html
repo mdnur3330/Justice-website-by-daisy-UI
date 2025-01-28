@@ -167,7 +167,7 @@
               <h3 class="text-2xl font-bold text-gray-500">Frequently Asked Any Questions</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-            <div class="flex gap-3 items-center">
+            <div class="lg:flex gap-3 items-center">
               <div class="flex-1 space-y-2">
                 <div class="collapse collapse-plus bg-base-200">
                   <input type="radio" name="my-accordion-3" checked="checked" />
@@ -202,8 +202,8 @@
               <h3 class="text-2xl font-bold text-gray-700"> Contact With Us</h3>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
-              <div class="hero bg-base-200 min-h-screen">
-                <div class="hero-content lg:flex">
+              <div class="hero bg-base-200 ">
+                <div class="hero-content flex-col lg:flex-row">
                   <!-- address and phone location others area  -->
                   <div class="grid grid-cols-2 w-full">
                     <div class="space-y-3 text-center border p-5">
@@ -264,43 +264,55 @@
            </section>
     </main>
    
-    <footer class="footer footer-color text-white p-10">
+    <footer class=" footer-color text-white py-36">
+      <div class="lg:flex justify-around mx-auto">
+        <div class="space-y-3 w-3xs p-1">
+          <div class="flex items-center gap-4">
+            <img class="w-7" src="images/business.png" alt="">
+            <h3 class="text-2xl text-gray-300">Justice</h3>
+           </div>
+           <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+       <div class=" w-3xs p-1">
         <nav>
-          <h6 class="footer-title">Services</h6>
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+          <h6 class="text-2xl font-bold text-gray-500 my-3">Usefull Link</h6>
+          <a href="#">About us</a><br>
+          <a href="#">Contact</a><br>
+          <a href="#">Jobs</a><br>
+          <a href="#">Press kit</a>
         </nav>
-        <nav>
-          <h6 class="footer-title">Company</h6>
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <h6 class="footer-title">Legal</h6>
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
-        </nav>
-        <form>
-          <h6 class="footer-title">Newsletter</h6>
-          <fieldset class="form-control w-80">
-            <label class="label">
-              <span class="label-text">Enter your email address</span>
-            </label>
-            <div class="join">
-              <input
-                type="text"
-                placeholder="username@site.com"
-                class="input input-bordered join-item" />
-              <button class="btn btn-primary join-item">Subscribe</button>
+       </div>
+        <div class=" w-3xs p-1">
+        <h6 class="text-2xl font-bold text-gray-500 my-3">Contact Now</h6>
+        <p>555 4th 5t NW, Washington
+          DC 20530, United States</p>
+        <span>+88 01750 000 000</span>
+        <span>+88 01750 000 000</span>
+        <span>info@gmail.com</span>
+        <span>info@gmail.com</span>
+        </div>
+        <div class=" w-3xs p-1">
+          <form>
+            <h6 class="text-2xl font-bold text-gray-500 my-3">Subscribe</h6>
+            <div>
+              
             </div>
-          </fieldset>
-        </form>
-  
+            <fieldset class="form-control w-80">
+              <label class="label">
+                <span class="text-gray-500">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+              </label>
+              <div class="join">
+                <input
+                  type="email"
+                  placeholder="username@site.com"
+                  class="input input-bordered join-item" />
+                <button class="btn btn-bg join-item">Subscribe</button>
+              </div>
+            </fieldset>
+          </form>
+    
+        </div>
+      </div>
     </footer>
 </body>
 </html>
